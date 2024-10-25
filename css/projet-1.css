@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+nav ul{
+    display: flex;
+    color: white;
+    margin-top: 15px;
+    margin-right: 55px;
+    list-style: none;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+nav h1{
+    margin-left: 55px;
+    color: white;
+}
+span{
+    font-size: 35px;
+    color: orange;
+}
