@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul a{
+    margin: 10px;
+}
+
+
+
+
+
+
+/* service */
+section{
+    height: 90vh;
+
+}
+
