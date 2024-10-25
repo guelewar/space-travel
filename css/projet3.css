@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(193, 176, 189);
+}
+ul{
+    display: flex;
+}
