@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.mum{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.ras{
+    height: 400px;
+    width: 350px;
+    margin: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.ras img{
+    width: 100%;
+    border-radius: 10px;
+}
+button{
+    border: none;
+    color:orangered;
+    background: #000;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover{
+    background: orangered;
+    color: #000;
+} 
+   
