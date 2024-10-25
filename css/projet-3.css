@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    height: 70px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin-right: 65px;
+}
+ul a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 22px;
+    color: white;
+}
+ul a:hover{
+    text-decoration: line-through;
+    color: black;
+}
+nav h2{
+    margin-left: 60px;
+    font-size: 40px;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./images/ph\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section h1{
+    font-size: 80px;
+}
+.btn1{
+    margin-top: 12px;
+    padding: 5px;
+    border: none;
+    font-size: 18px;
+    background-color: rgb(238, 210, 210);
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: rgb(138, 0, 243);
+    color: white;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 55px;
+}
+.principal{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#Menu{
+    margin-top: 10px;
+    height: 115vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-wrap: wrap;
+}
+.marque{
+    height: auto;
+    width: 400px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+.marque img{
+    max-width: 100%;
+}
+.marque p{
+    font-size: 20px;
+    margin: 6px;
+}
+button{
+    padding: 3px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 85px;
+}
+button:hover{
+    background-color: rgb(102, 192, 192);
+}
+#Dessert{
+    height: 123vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+.clood{
+    height: auto;
+    width: 400px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+.clood img{
+    width: 100%;
+}
+.clood p{
+    font-size: 20px;
+    margin: 5px;
+}
+#Contact{
+    height: 90vh;
+    width: 700px;
+    margin-top: 100px;
+    margin-left: 28%;
+    margin-right: 25%;
+    display: flex;
+    flex-direction: column;
+ }
+.room{
+    display: flex;
+    width: 100%;
+    margin: 8px;
+    margin-top: 25px;
+
+}
+.room div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px;
+}
+h4{
+    text-align: center;
+    font-size: 35px;
+}
+input, textarea{
+    padding: 10px;
+}
+.btn 3{
+    height: 10vh;
+}
+input[type="submit"]{
+    margin-top: 45px;
+    margin-bottom: 25px;
+    padding: 10px;
+    width: 85px;
+}
